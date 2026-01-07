@@ -24,26 +24,6 @@ The dataset `FuelConsumptionCo2.csv` contains vehicle fuel consumption and CO2 e
 
 ---
 
-## **Folder Structure**
-
-CO2_Emission_Predictor/
-│
-├─ data/
-│ └─ FuelConsumptionCo2.csv # Dataset
-├─ scripts/
-│ ├─ linear_regression.py # Linear Regression model
-│ ├─ random_forest.py # Random Forest model
-│ └─ xgboost_model.py # XGBoost model
-├─ models/
-│ ├─ lr_model.pkl # Saved Linear Regression model
-│ ├─ rf_model.pkl # Saved Random Forest model
-│ └─ xgb_model.pkl # Saved XGBoost model
-├─ requirements.txt # Python dependencies
-└─ README.md # Project overview
-
-
----
-
 ## **Models and Performance**
 
 | Model               | R² Score | RMSE (g/km) |
